@@ -8,7 +8,7 @@ const PORT = "8080"
 const HOST = '0.0.0.0';
 
 //app
-const APP = express();
+const app = express();
 app.get('/', (red,res) => {
   res,send ("hello jenkins world");
 });
